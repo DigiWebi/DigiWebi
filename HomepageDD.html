@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Dream Deal</title>
+</head>
+<body bgcolor="#ddddd" alink="red" vlink="green" link="blue">
+<hr color="#997777" size="10" width="1200"/>
+<p align="center">
+<font color="#222222" size="15" face="Carbon Block"><b>Welcome To Dream Deal </b></font>
+</p>
+<hr color="#997777" size="10" width="1200"/>
+<br/>
+    <table bgcolor="#997777" align="center" width="1000">
+           <tr> <th><font size="5" Color="White"> <a href="frontpage.html">Home</a> </font></th>
+                <th><font size="5" Color="White"> <a href="HomepageDD.html"> Product </a> </font></th>
+                <th><font size="5" Color="White"> <a href="aboutus.html"> About Us </a> </font></th>
+                <th><font size="5" Color="White"> <a href="Contactus.html"> Contact Us </a></font><th> 
+                <th><font size="5" Color="White"><a href="createaccount.html">Register Here!! </a></font><th>
+           </tr>
+    </table>
+<p align="center">
+<font  size="5" color="#444444">
+This is the your Dream Site. Begin your shopping and fill your cart with your dream products at unimaginable prices.
+</font>
+</p>
+<!-- Nested unordered list to show contents of site -->
+<table border="0" align="left" cellspacing="90">
+<tr>
+<td> <h1> Categories:- </h1>
+<font  size="5" color="#444444" face="baveuse">
+<ul type="circle">																							
+<li><a href ="p1.html#c">Cars</a><ul type="square">
+	<font  size="3" color="#444444" face="biondi">	
+        <li>Lambhorghini</li>
+	<li>Mercedes</li>
+        <li>Skoda</li>
+	<li>Volkswagon</li>
+	<li>Audi</li>
+	</font>
+	</ul>
+</li>
+<br/>
+<li><a href ="p1.html#mb">MotorBikes</a> <ul type="square">
+	<font  size="3" color="#444444" face="biondi">
+        <li>Harley Davidson</li>
+	<li>Indian</li>
+        <li>Kawasaki</li>
+	<li>BMW</li>
+	<li>Royal Enfeild</li>
+	</font>
+	</ul>
+</li>
+<br/>
+<li><a href="p1.html#bl">Bunglows location</a> <ul type="square">
+	<font  size="3" color="#444444" face="biondi">
+        <li>Spain</li>
+	<li>Switzerland</li>
+        <li>Norway</li>
+	<li>Malaysia</li>
+	<li>Belgium</li>
+	</font>
+	</ul>
+</li>
+<br/>
+<li><a href="p1.html#ts">Tourist Spots</a> <ul type="square">
+	<font  size="3" color="#444444" face="biondi">	
+        <li>Paris</li>
+	<li>Rio de Generio</li>
+        <li>Shimla</li>
+        <li>Venice</li>
+	<li>Stockholm</li>
+	</font>
+	</ul>
+</li>
+<br/>
+</ul>
+</font>
+</td>
+<td>
+<div class="w3-content w3-section" style="max-width:500px">
+					
+					<img class="mySlides w3-animate-fading" height="400" Width="700" src="audi R8.jpg" />
+					<img class="mySlides w3-animate-fading" height="400" Width="700" src="harley-davidson.jpg" />					
+					<img class="mySlides w3-animate-fading" height="400" Width="700" src="switzerland banglow.jpg" /> 
+                    <img class="mySlides w3-animate-fading" height="400" Width="700" src="paris tourism.jpg" />
+					 
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script> </td> </tr>
+ </table>
+<!-- Last Section of Page to give our Dummy site a real look -->
+<br/><br/><br/><br/><br/>
+<hr color="#999922" size="5" width="1200"/>
+<p align="center">
+<font size="3" color="#334455">
+All rights reserved
+<br/>Copyrights @ Aniruddh
+<br/>|About|Help|
+</font>
+</p>
+</body>
+</html>
